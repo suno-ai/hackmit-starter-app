@@ -140,7 +140,7 @@ Checks the generation status of clips.
 - Try clicking play again, or check browser console for errors
 - Verify that the audio URL is accessible
 
-## 📝 Code Structure
+## 📝 Main Code Structure
 
 ```
 /app
