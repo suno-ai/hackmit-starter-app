@@ -1,4 +1,4 @@
-// Types for Suno API responses
+// Types for Suno HackMIT API responses
 export interface SunoClip {
   id: string;
   status: "submitted" | "queued" | "streaming" | "complete" | "error";

@@ -20,9 +20,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Check status using Suno API
+    // Check status using Suno HackMIT API
     const statusResponse = await fetch(
-      `https://studio-api.prod.suno.com/api/v2/external/clips/?ids=${clipIds.join(
+      `https://studio-api.prod.suno.com/api/v2/external/hackmit/clips?ids=${clipIds.join(
         ","
       )}`,
       {

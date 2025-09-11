@@ -20,9 +20,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Generate song using Suno API
+    // Generate song using Suno HackMIT API
     const generateResponse = await fetch(
-      "https://studio-api.prod.suno.com/api/v2/external/generate/",
+      "https://studio-api.prod.suno.com/api/v2/external/hackmit/generate",
       {
         method: "POST",
         headers: {
@@ -33,14 +33,13 @@ export async function POST(request: NextRequest) {
           topic: prompt,
           tags: tags || undefined,
           make_instrumental: makeInstrumental || false,
-          model: "chirp-auk",
         }),
       }
     );
 
     if (!generateResponse.ok) {
       const errorText = await generateResponse.text();
-      console.error("Suno API generate error:", errorText);
+      console.error("Suno API generation error:", errorText);
       return NextResponse.json(
         { error: "Failed to start song generation" },
         { status: generateResponse.status }
@@ -50,7 +49,7 @@ export async function POST(request: NextRequest) {
     const clip = await generateResponse.json();
     console.log("Suno API response:", JSON.stringify(clip, null, 2));
 
-    // The v2 external generate endpoint returns a single clip object
+    // The Suno HackMIT generate endpoint returns a single clip object
     if (!clip || !clip.id) {
       console.error("Invalid response format:", clip);
       return NextResponse.json(
