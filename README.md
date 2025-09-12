@@ -63,6 +63,8 @@ yarn dev
 
 Starts song generation with the Suno HackMIT API.
 
+> **Note**: The HackMIT generate endpoint returns a single clip object, which our API wraps in an array for frontend consistency.
+
 **Request Body:**
 
 ```json
@@ -90,7 +92,9 @@ Starts song generation with the Suno HackMIT API.
 
 ### `POST /api/check-status`
 
-Checks the generation status of clips.
+Checks the generation status of some clip(s).
+
+> **Note**: The HackMIT clips endpoint returns an array of clip objects (even for a single clip ID).
 
 **Request Body:**
 
