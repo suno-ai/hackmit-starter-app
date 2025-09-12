@@ -43,7 +43,7 @@ yarn dev
 5. **Wait up to 1 minute** for generation to complete
 6. **Play and download** your generated songs!
 
-## 🎯 Features Implemented
+## 🎯 Starter Features Implemented
 
 ### Frontend Features
 
