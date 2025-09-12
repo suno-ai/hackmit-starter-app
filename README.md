@@ -40,7 +40,7 @@ yarn dev
 2. **Enter a song description** like "An upbeat pop song about coding at a hackathon"
 3. **Add style tags** (optional) like "pop, electronic, energetic"
 4. **Click "Generate Song"** and begin streaming the song as it generates
-5. **Wait up to 1 minute** for generation to complete
+5. **Wait 1-2 minutes** for generation to complete
 6. **Play and download** your generated songs!
 
 ## 🎯 Starter Features Implemented
@@ -134,7 +134,7 @@ Checks the generation status of some clip(s).
 
 ### Generation Takes Too Long
 
-- Song generation typically takes up to 1 minute
+- Song generation typically takes 1-2 minutes
 - The app polls every 5 seconds automatically
 - Check the status updates in the progress section
 
