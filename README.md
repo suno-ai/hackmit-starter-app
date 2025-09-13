@@ -2,6 +2,8 @@
 
 A demo starter web app for HackMIT 2025 that leverages the Suno external API to generate music with AI! Transform your ideas into beautiful music with just a text description.
 
+**📖 Comprehensive API Documentation:** [suno.com/hackmit](https://suno.com/hackmit)
+
 ## 🚀 Quick Start
 
 ### 1. Set Up Environment Variables
@@ -20,7 +22,7 @@ Add your Suno API key:
 SUNO_API_KEY=your_suno_api_key_here
 ```
 
-**🚨 Important:** Get your API key from the Suno booth at HackMIT 2025!
+**🚨 Important:** One of your team members should have received an email with your team's API key. If not, then please visit the Suno booth at HackMIT 2025!
 
 ### 2. Install and Run
 
@@ -172,4 +174,4 @@ Make sure to:
 
 ---
 
-Built with ❤️ for HackMIT 2025 • Powered by [Suno](https://suno.com)
+Built with ❤️ for HackMIT 2025 • Powered by [Suno](https://suno.com) • [API Docs](https://suno.com/hackmit)
