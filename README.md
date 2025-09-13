@@ -6,6 +6,15 @@ A demo starter web app for HackMIT 2025 that leverages the Suno external API to 
 
 ## 🚀 Quick Start
 
+### 0. Clone This Starter App
+
+Want to use this as a starting point or play with the app? Start by cloning the repository:
+
+```bash
+git clone https://github.com/suno-ai/hackmit-starter-app.git
+cd hackmit-starter-app
+```
+
 ### 1. Set Up Environment Variables
 
 Create a `.env.local` file in your project root:
