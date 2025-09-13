@@ -8,7 +8,7 @@ A demo starter web app for HackMIT 2025 that leverages the Suno external API to 
 
 ### 0. Clone This Starter App
 
-Want to use this as a starting point or play with the app? Start by cloning the repository:
+Want to use this code to get started, or play with the app? Begin by cloning the repository:
 
 ```bash
 git clone https://github.com/suno-ai/hackmit-starter-app.git
